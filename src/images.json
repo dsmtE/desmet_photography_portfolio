@@ -1,0 +1,49 @@
+{
+	"images": [
+		{
+			"src": "images/IMG_3336.jpg",
+			"width": 1200,
+			"height": 800
+		},
+		{
+			"src": "images/IMG_3336 (1).jpg",
+			"width": 1200,
+			"height": 800
+		},
+		{
+			"src": "images/IMG_3336 (2).jpg",
+			"width": 1200,
+			"height": 800
+		},
+		{
+			"src": "images/IMG_3676.jpg",
+			"width": 1200,
+			"height": 800
+		},
+		{
+			"src": "images/IMG_3676 (1).jpg",
+			"width": 1200,
+			"height": 800
+		},
+		{
+			"src": "images/IMG_3676 (2).jpg",
+			"width": 1200,
+			"height": 800
+		},
+		{
+			"src": "images/IMG_3705.jpg",
+			"width": 1200,
+			"height": 800
+		},
+		{
+			"src": "images/IMG_3705 (1).jpg",
+			"width": 1200,
+			"height": 800
+		},
+		{
+			"src": "images/IMG_3705 (2).jpg",
+			"width": 1200,
+			"height": 800
+		}
+	]
+}

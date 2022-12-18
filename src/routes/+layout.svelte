@@ -11,7 +11,7 @@
 	</main>
 
 	<footer>
-		<p> Enguerrand DE SMET</p>
+		<p>Enguerrand DE SMET</p>
 	</footer>
 </div>
 
@@ -26,7 +26,7 @@
 		flex: 1;
 		display: flex;
 		flex-direction: column;
-		max-width: 90vh;
+		max-width: 100%;
 		padding: 1rem;
 		width: 100%;
 		margin: 0 auto;
@@ -41,6 +41,11 @@
 		padding: 12px;
 	}
 
+	@media (min-width: 1024px) {
+		main {
+			max-width: 90%;
+		}
+	}
 	@media (min-width: 480px) {
 		footer {
 			padding: 12px 0;

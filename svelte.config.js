@@ -14,7 +14,9 @@ const config = {
 			strict: true
 		  }),
 		alias: {
-			$components: "src/components/"
+			$src: "src/",
+			$components: "src/components/",
+			$static: "static/"
 		}
 	}
 };
