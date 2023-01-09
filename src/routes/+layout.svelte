@@ -1,10 +1,17 @@
 <script>
-	import Header from './Header.svelte';
+	import NavBar from '$components/NavBar.svelte';
 	import './styles.css';
 </script>
 
 <div class="app">
-	<Header />
+	<header>
+		<NavBar items = {[
+			{ label: 'Gallerie', href: '/' },
+			{ label: 'À propos', href: '/about' },
+		]} />
+		<div class="corner">
+		</div>
+	</header>
 
 	<main>
 		<slot />

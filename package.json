@@ -38,6 +38,7 @@
 	},
 	"type": "module",
 	"dependencies": {
+		"svelte-awesome": "^3.0.1",
 		"svelte-gallery": "^1.3.5"
 	}
 }
