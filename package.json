@@ -39,6 +39,7 @@
 	"type": "module",
 	"dependencies": {
 		"svelte-awesome": "^3.0.1",
-		"svelte-photoswipe-gallery": "^0.0.2"
+		"svelte-photoswipe-gallery": "^0.0.2",
+		"svrollbar": "^0.12.0"
 	}
 }

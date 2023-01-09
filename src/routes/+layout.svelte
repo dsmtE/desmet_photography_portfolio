@@ -1,6 +1,7 @@
-<script>
+<script lang="ts">
 	import NavBar from '$components/NavBar.svelte';
 	import './styles.css';
+	import { Svrollbar } from 'svrollbar';
 </script>
 
 <div class="app">
@@ -20,9 +21,10 @@
 	<footer>
 		<p>Enguerrand DE SMET</p>
 	</footer>
+	<Svrollbar margin = {{ top: 10, buttom: 10}} />
 </div>
 
-<style>
+<style lang="postcss">
 	.app {
 		display: flex;
 		flex-direction: column;
@@ -58,4 +60,21 @@
 			padding: 12px 0;
 		}
 	}
+
+	/* svrollbar */
+	:global(html, body) {
+		-ms-overflow-style: none;
+		scrollbar-width: none;
+	}
+	:global(html::-webkit-scrollbar, body::-webkit-scrollbar) {
+		/* hide scrollbar */
+		display: none;
+	}
+	:root {
+		--svrollbar-track-radius: 6px;
+		--svrollbar-thumb-width: 6px;
+		--svrollbar-thumb-background: linear-gradient(45deg, var(--color-theme-1), var(--color-theme-2));
+		--svrollbar-thumb-opacity: 0.7;
+  	}
+
 </style>
