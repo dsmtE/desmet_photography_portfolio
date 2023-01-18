@@ -8,6 +8,7 @@
 <script lang="ts">
 	import { page } from '$app/stores';
     import { navigating } from '$app/stores';
+    import { base } from '$app/paths';
 
     import Icon from 'svelte-awesome';
     import alignRight from 'svelte-awesome/icons/alignRight';
@@ -29,7 +30,7 @@
 
 <nav class:dropdown-opened="{mobileNavOpened}">
 
-	<a id="title" href="/">
+	<a id="title" href={base}>
 		Enguerrand DE SMET
 	</a>
     

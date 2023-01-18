@@ -12,7 +12,16 @@
 <script lang="ts">
 	import PhotoswipeGallery from 'svelte-photoswipe-gallery';
 	import { images } from '$src/images.json';
+	import { base } from '$app/paths';
 	
+	let imagesItems = images.map((image) => ({
+		src: `${base}/images/${image.filename}`,
+		height: image.height,
+		width: image.width,
+	}));
+
+	console.log("fixedImages: ", imagesItems);
+
 	let gallery: PhotoswipeGallery;
 	
 	// // Try load image dynamically
@@ -55,7 +64,7 @@
 	<PhotoswipeGallery
 	bind:this={gallery} 
 	maxColumnWidth={400}
-	{images}
+	images={imagesItems}
 	showDescription="{false}"
 	showDownloadButton="{false}"
 	showFullscreenButton="{true}"

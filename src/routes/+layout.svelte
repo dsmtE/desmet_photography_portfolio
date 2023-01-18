@@ -2,14 +2,18 @@
 	import NavBar from '$components/NavBar.svelte';
 	import './styles.css';
 	import { Svrollbar } from 'svrollbar';
+	import { base } from '$app/paths';
+	
+	const navItems = [
+		{ label: 'Gallerie', href:  `${base}/` },
+		{ label: 'À propos', href: `${base}/about` },
+	];
+	
 </script>
 
 <div class="app">
 	<header>
-		<NavBar items = {[
-			{ label: 'Gallerie', href: '/' },
-			{ label: 'À propos', href: '/about' },
-		]} />
+		<NavBar items = {navItems} />
 		<div class="corner">
 		</div>
 	</header>

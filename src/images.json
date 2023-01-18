@@ -1,32 +1,32 @@
 {
 	"images": [
 		{
-			"src": "/images/IMG_1962-2.jpg",
+			"filename": "IMG_1962-2.jpg",
 			"width": 1200,
 			"height": 675
 		},
 		{
-			"src": "/images/IMG_3336.jpg",
+			"filename": "IMG_3336.jpg",
 			"width": 1200,
 			"height": 675
 		},
 		{
-			"src": "/images/IMG_3676.jpg",
+			"filename": "IMG_3676.jpg",
 			"width": 1200,
 			"height": 675
 		},
 		{
-			"src": "/images/IMG_3705.jpg",
+			"filename": "IMG_3705.jpg",
 			"width": 1200,
 			"height": 675
 		},
 		{
-			"src": "/images/IMG_7202.jpg",
+			"filename": "IMG_7202.jpg",
 			"width": 1200,
 			"height": 675
 		},
 		{
-			"src": "/images/IMG_7482.jpg",
+			"filename": "IMG_7482.jpg",
 			"width": 1200,
 			"height": 675
 		}
