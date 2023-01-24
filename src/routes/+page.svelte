@@ -10,7 +10,8 @@
 </script> -->
 
 <script lang="ts">
-	import PhotoswipeGallery from 'svelte-photoswipe-gallery';
+	// import PhotoswipeGallery from 'svelte-photoswipe-gallery';
+	import PhotoswipeGallery from "$components/PhotoSwipe/PhotoswipeGallery.svelte";
 	import { images } from '$src/images.json';
 	import { base } from '$app/paths';
 	
