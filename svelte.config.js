@@ -1,15 +1,15 @@
-import adapter from '@sveltejs/adapter-static';
+import adapter_static from '@sveltejs/adapter-static';
 import { vitePreprocess } from '@sveltejs/kit/vite';
 
-// const dev = process.env.NODE_ENV === 'development';
 const dev = process.argv.includes('dev');
+const base = dev ? '' : '/desmet_photography_portfolio';
 
 /** @type {import('@sveltejs/kit').Config} */
 const config = {
 	preprocess: vitePreprocess(),
 	
 	kit: {
-		adapter: adapter({
+		adapter: adapter_static({
 			pages: 'build',
 			assets: 'build',
 			fallback: null,
@@ -22,9 +22,12 @@ const config = {
 			$static: "static/"
 		},
 		paths: {
-			base: dev ? '' : '/desmet_photography_portfolio',
+			base: base,
         },
 		appDir: 'internal',
+		serviceWorker: {
+			register: false,
+		}
 	}
 };
 

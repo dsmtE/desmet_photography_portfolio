@@ -3,7 +3,7 @@
 	import './styles.css';
 	import { Svrollbar } from 'svrollbar';
 	import { base } from '$app/paths';
-	
+
 	const navItems = [
 		{ label: 'Gallerie', href:  `${base}/` },
 		{ label: 'À propos', href: `${base}/about` },
